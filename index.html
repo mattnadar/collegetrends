@@ -13,13 +13,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="title">
-            Examining Trends on <a href="https://www.reddit.com/r/college/">r/college</a> to try and learn about student needs
+        <div class="title-wrapper">
+            <div class="title">
+                Examining Trends on <a href="https://www.reddit.com/r/college/">r/college</a> to try and learn about student needs
+            </div>
+            <div class="why">
+                By digging into what students are talking about here, we can learn a lot about what’s really on their minds. Whether it’s student loans, mental health, finding a job, or just surviving finals, these posts give us a raw, unfiltered look at the challenges and questions students are facing.
+            </div>
         </div>
-        <div class="why">
-            By digging into what students are talking about here, we can learn a lot about what’s really on their minds. Whether it’s student loans, mental health, finding a job, or just surviving finals, these posts give us a raw, unfiltered look at the challenges and questions students are facing.
+        <div class="methods-wrapper">
+            <div class="title">
+                Methods
+            </div>
+            <div class="methods-info">
+                To accomplish this, I used <a href="https://praw.readthedocs.io/en/stable/">PRAW</a>, a Python API that lets you interact with reddit data.
+                <br>
+                <br>
+                My initial idea was to scrape a bunch of posts from r/college, and then do an analysis on common words between many posts.
+            </div>
         </div>
-
-        <div class="methods"></div>
     </body>
 </html>

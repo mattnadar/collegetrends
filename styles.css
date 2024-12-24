@@ -37,5 +37,36 @@ div.why{
     text-align: center;
     color: #000000;
     font-size: 30px;
-    margin: 15px 25% 0 25%;
+    margin: 30px 30% 30px 30%;
+}
+
+div.methods-wrapper{
+background-color: lightblue;
+}
+
+div.methods{
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+div.methods-info{
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  margin: 30px 30% 30px 30%;
+}
+
+div.methods-info a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.methods-info a:hover{
+  color: #7243ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.5s;
 }
