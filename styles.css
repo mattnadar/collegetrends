@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Global Styles */
+
+* {
+  font-family: "Lato";
+  /*background-color: #f4f3ee;*/
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffeaea00;
+  margin: 0;
+}
+
+div.title{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+div.title a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.title a:hover{
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+div.why{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin: 15px 25% 0 25%;
+}
